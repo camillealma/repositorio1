@@ -39,8 +39,12 @@
    vertical-align: middle; 
   text-align: center; 
 
+   }
 
-
+   .content-box-1{
+    color: aquamarine;
+    width: 200px;
+   
    }
 
    
