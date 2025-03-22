@@ -13,7 +13,6 @@ body {
     width: 100vw;
     height: 100vh;
 }
-
 .header {
     position: absolute;
     top: 0;
@@ -29,7 +28,8 @@ body {
     left: 0;
     width: 50%;
     height: 60%;
-    background-color: #d3d3d3; 
+    background-color: #d3d3d3; /
+
 }
 
 .right {
@@ -38,33 +38,32 @@ body {
     left: 50%;
     width: 50%;
     height: 60%;
+    background-color: #0000ff; /* Azul oscuro */
+    padding: 10px; /* Espacio interno para que no toquen los bordes */
+    box-sizing: border-box; /* Incluye el padding en el ancho y alto */
 }
 
 .right-top {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background-color: #7fe4e4; 
-    border: 5px solid #0000ff; 
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px); /* Ancho restando el espacio de los lados */
+    height: calc(50% - 15px); /* Altura restando el espacio superior, inferior y la línea divisoria */
+    background-color: #7fe4e4; /* Celeste */
 }
-
 .right-bottom {
     position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background-color: #7fe4e4; 
-    border: 5px solid #0000ff; 
+    bottom: 10px;
+    left: 10px;
+    width: calc(100% - 20px); /* Ancho restando el espacio de los lados */
+    height: calc(50% - 15px); /* Altura restando el espacio superior, inferior y la línea divisoria */
+    background-color: #7fe4e4; /* Celeste */
 }
-
 .footer {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 30%;
-    background-color: #a52a2a; /
+    background-color: #a52a2a; /* Rojo oscuro */
 }
